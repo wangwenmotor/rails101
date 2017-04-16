@@ -26,7 +26,7 @@ def new
       current_user.join!(@group)
       redirect_to groups_path
     else
-    render :new
+      render :new
     end
   end
 
